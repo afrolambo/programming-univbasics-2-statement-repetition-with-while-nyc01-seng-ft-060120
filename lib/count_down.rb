@@ -4,7 +4,6 @@ countdown = 10
 while countdown >= 1 do 
   puts "#{countdown}"
   countdown -= 1 
-  if countdown = 0 
-    break
+  break if countdown = 0 
     puts "Happy New Year!"
 end 
