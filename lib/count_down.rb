@@ -3,7 +3,7 @@ countdown = 10
 
 while countdown >= 1 do 
   puts "#{countdown}"
-  countdown -= 1 
   break if countdown == 0 
-    puts "Happy New Year!"
+    countdown -= 1 
 end 
+puts "Happy New Year!"
